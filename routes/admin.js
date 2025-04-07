@@ -6,8 +6,8 @@ const router = express.Router();
 const usersFile = path.join(__dirname, "../data/users.json");
 
 // Dummy admin credentials
-const ADMIN_USERNAME = "nexx";
-const ADMIN_PASSWORD = "4";
+const ADMIN_USERNAME = "reflexo";
+const ADMIN_PASSWORD = "1";
 
 const loadUsers = () => {
     if (!fs.existsSync(usersFile)) return [];
